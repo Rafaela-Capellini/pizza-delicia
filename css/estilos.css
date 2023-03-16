@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {                  /*editar o header(topo do site) inteiro*/
+    background-color: #1a1a1a;
+    display: flex;                 /*fazer uma flexbox*/
+}
+
+header p {                         /*editar onde está o paragrafo*/
+    color:white;
+    font-size: 50px;
+}
+
+header img {                     /*editar a imagem*/
+    height: 150px;                 /*altura da imagem*/
+    padding-left: 35px;          /*separar esquerda*/
+    padding-right: 35px;           /*separar direita*/
+}
+
+nav {                                           /*tudo que está no nav*/
+    background-color: chocolate;
+    text-align: center;
+    padding: 5px 0px 5px 25px;           /*medidas da linha da nav*/
+}
+
+nav a {
+    color: rgb(128,23,0);
+    text-decoration: none;             /*tirar a linha da palavra*/
+    padding: 0px 10px;               /*colocar espaço entre elas*/
+}
+
+nav a:hover {
+    font-weight: bold;           /*passar o mouse nos sites em cima*/
+}
+
+footer {                            /*final do site onde fica o nome*/
+    background-color: brown;
+    color:white;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+footer a {                          /*final do site onde fica o nome*/
+    color:rgb(233, 175, 69);
+    text-decoration: none;              /*tirar a linha*/
+}
+
+footer a:hover {                   
+    font-weight: bold;             /*passar o mouse na letra e muda de cor*/
+}
+
+#container {                              /*tudo que estiver no container*/
+    padding: 50px 100px;
+}
+
+#superior {
+    display: flex;                    /*transformar em flexbox deixar a letra do lado da foto*/
+}
+
+#inferior {
+    display: flex;                           /*transforma em flexbox*/
+    justify-content: space-between;         /*deixar espaço do lado*/
+    margin-top: 50px;                      /*descolar da foto em cima*/
+}
+
+#texto-home {
+    padding: 0px 20px;
+}
+
+.img-destaque {
+    width:380px;
+}
